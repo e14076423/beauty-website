@@ -1,0 +1,33 @@
+header{
+    background-color: lightpink;
+}
+.side{
+    background-color: lightpink;
+    width: 200px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.car{
+    float: right;
+    order:2;
+}
+.list{
+    float: right;
+    order:1;
+}
+.myhead{
+    float: right;
+    order:3;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageContainer{
+    display: flex;
+    
+}

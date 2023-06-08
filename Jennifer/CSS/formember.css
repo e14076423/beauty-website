@@ -1,0 +1,9 @@
+.membership{
+    text-align: center;
+    border: 4px  lightpink;
+    margin-top: 80px;
+    width: 400px;
+    border-style: solid;
+    position: relative;
+    margin: 80px auto;
+}

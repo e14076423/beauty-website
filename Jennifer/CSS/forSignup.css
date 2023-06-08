@@ -1,0 +1,10 @@
+.content{
+    border: 4px  lightpink;
+    text-align: left;
+    border-style: solid;
+    margin-top: 80px;
+    width: 400px;
+    
+    position: relative;
+    margin: 80px auto;
+}

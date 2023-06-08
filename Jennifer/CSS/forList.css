@@ -1,0 +1,6 @@
+.addList{
+    display: flex;
+    gap: 30px;
+    color: lightpink;
+    margin-top: 50px;
+}

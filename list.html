@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Let's get beauty - Cart</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><h1>Buy some beauty</h1></a>
+      </nav>
+      <nav>
+        <a href="list.html"><img class="icon" src="src/list.png" /></a>
+        <a href="cart.html"><img class="icon" src="src/cart.png" /></a>
+        <a href="login.html"><img class="icon" src="src/head.png" /></a>
+      </nav>
+    </header>
+
+    <div id="content-container" style="display: flex">
+      <nav class="sidebar">
+        <div>
+          <a href="maintainance.html">
+            <p>保養</p>
+          </a>
+        </div>
+        <div>
+          <a href="base.html">
+            <p>底妝</p>
+          </a>
+        </div>
+        <div>
+          <a href="lip.html">
+            <p>唇.頰彩</p>
+          </a>
+        </div>
+        <div>
+          <a href="celebrity.html">
+            <p>明星代言</p>
+          </a>
+        </div>
+      </nav>
+
+      <div id="list-container">
+        <div class="list-item" style="display: none">
+          <h3 class="list-name">Product</h3>
+          <img class="list-image" src="" alt="" />
+          <p class="list-description">Description</p>
+          <p class="list-price">Price: $10</p>
+          <button class="list-remove" onclick="deleteFromList()">
+            Delete from list
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
